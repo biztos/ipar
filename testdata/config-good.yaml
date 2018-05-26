@@ -1,0 +1,17 @@
+# config-good.yaml -- working config file with all items set
+# (NOTE: "insecure" is obviously contradictory here but we allow it.)
+host: example.com
+port: 8080
+name: Ipar Test Site
+owner: Son of Kisipar
+certfile: /some/path/to/cert
+keyfile: /some/path/to/key
+insecure: true
+dir: /some/path/to/dir
+data:
+  anything:
+    could_be_here: true
+  numbers:
+    - 1
+    - 1.23
+    - 45454545454545454545454545
