@@ -8,6 +8,7 @@ certfile: /some/path/to/cert
 keyfile: /some/path/to/key
 insecure: true
 dir: /some/path/to/dir
+strict: true
 data:
   anything:
     could_be_here: true
